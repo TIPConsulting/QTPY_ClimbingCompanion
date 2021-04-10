@@ -22,7 +22,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-
+#if !NATIVE_TOUCH
 #include "Adafruit_FreeTouch.h"
 
 #include "adafruit_ptc.h"
@@ -422,3 +422,4 @@ void Adafruit_FreeTouch::printPTCregs(uint32_t base, uint8_t *regs,
         }
     }
 }
+#endif

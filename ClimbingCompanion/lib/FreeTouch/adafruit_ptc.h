@@ -24,6 +24,7 @@
  */
 
 // This is similar to the drivers found in sam0/drivers but for the PTC.
+#if !NATIVE_TOUCH
 #ifndef ADAFRUIT_FREETOUCH_ADAFRUIT_PTC_H
 #define ADAFRUIT_FREETOUCH_ADAFRUIT_PTC_H
 
@@ -112,3 +113,4 @@ extern "C"
 #endif
 
 #endif // ADAFRUIT_FREETOUCH_ADAFRUIT_PTC_H
+#endif

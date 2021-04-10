@@ -25,6 +25,7 @@
 
 // This is similar to the component definitions found in
 // sam0/utils/cmsis/samd21/include/component but for the PTC.
+#if !NATIVE_TOUCH
 #ifndef ADAFRUIT_FREETOUCH_PTC_COMPONENT_H
 #define ADAFRUIT_FREETOUCH_PTC_COMPONENT_H
 
@@ -370,3 +371,4 @@ typedef struct
 #define PTC_REG_INTFLAGS 0x42004C0A
 
 #endif // ADAFRUIT_FREETOUCH_PTC_COMPONENT_H
+#endif

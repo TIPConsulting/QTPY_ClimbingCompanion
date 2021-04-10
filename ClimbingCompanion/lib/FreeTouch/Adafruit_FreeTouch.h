@@ -1,3 +1,4 @@
+#if !NATIVE_TOUCH
 #ifndef ADAFRUIT_FREETOUCH_H
 #define ADAFRUIT_FREETOUCH_H
 
@@ -37,4 +38,5 @@ private:
     struct adafruit_ptc_config config;
 };
 
+#endif
 #endif

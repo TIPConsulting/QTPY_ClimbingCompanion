@@ -22,7 +22,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-
+#if !NATIVE_TOUCH
 #include "adafruit_ptc.h"
 
 static void sync_config(Ptc const *module_inst)
@@ -183,3 +183,4 @@ uint16_t adafruit_ptc_get_conversion_result(Ptc *module_inst)
     sync_config(module_inst);
     return module_inst->RESULT.reg;
 }
+#endif
