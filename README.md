@@ -1,6 +1,6 @@
 # QTPY Climbing Companion
 
-Signaling device for climbers to communicate when voice commands or hand signs are not feasible.  This is a helmet augmentation that adds 
+Signaling device for climbers to communicate when voice commands or hand signs are not feasible.  This is a helmet augmentation that adds simple raio commands to your existing helmet.
 
 ![Component Layout](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Capsule%20Layout.png?raw=true)
 
