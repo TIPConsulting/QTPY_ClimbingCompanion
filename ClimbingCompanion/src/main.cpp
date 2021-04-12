@@ -1,9 +1,7 @@
 #include <Arduino.h>
 #include <SPI.h>
 #include <RF24.h>
-#if !NATIVE_TOUCH
 #include <Adafruit_FreeTouch.h>
-#endif
 #ifdef NEOPIX
 #include <Adafruit_NeoPixel.h>
 #endif
@@ -12,13 +10,10 @@
 Adafruit_NeoPixel neoStrip(1, NEOPIX, NEO_GRB + NEO_KHZ800);
 #endif
 
-#if !NATIVE_TOUCH
-constexpr int touch_Thresh = 850;
+int touch_ThreshLeft = 99999999;
+int touch_ThreshRight = 99999999;
 Adafruit_FreeTouch touch_Left = Adafruit_FreeTouch(TOUCH_LEFT, OVERSAMPLE_4, RESISTOR_50K, FREQ_MODE_NONE);
 Adafruit_FreeTouch touch_Right = Adafruit_FreeTouch(TOUCH_RIGHT, OVERSAMPLE_4, RESISTOR_50K, FREQ_MODE_NONE);
-#else
-constexpr int touch_Thresh = 20;
-#endif
 
 constexpr byte vibe_Left = VIBE_LEFT;
 constexpr byte vibe_Right = VIBE_RIGHT;
@@ -39,6 +34,8 @@ bool isTransmitting = false;
 constexpr int lastReceiptThresh = 200;
 unsigned long lastReceipt = 0;
 
+inline int ReadTouchLeft();
+inline int ReadTouchRight();
 inline bool CheckTouchLeft();
 inline bool CheckTouchRight();
 void SendRF(bool, bool);
@@ -51,10 +48,8 @@ void setup()
   Serial.println(F("RF24/examples/GettingStarted"));
   Serial.println(F("*** PRESS 'T' to begin transmitting to the other node"));
 
-#if !NATIVE_TOUCH
   touch_Left.begin();
   touch_Right.begin();
-#endif
 
   pinMode(LED_BUILTIN, OUTPUT);
   pinMode(vibe_Left, OUTPUT);
@@ -91,6 +86,12 @@ void setup()
 
   // Start the radio listening for data
   radio.startListening();
+
+  delay(500);
+  ReadTouchLeft();
+  touch_ThreshLeft = (int)(ReadTouchLeft() * 1.5);
+  ReadTouchRight();
+  touch_ThreshRight = (int)(ReadTouchRight() * 1.5);
 }
 
 void loop()
@@ -128,17 +129,31 @@ void loop()
   }
 }
 
+int ReadTouchLeft()
+{
+#ifdef NO_TOUCH
+  return 0;
+#else
+  return touch_Left.measure();
+#endif
+}
+
 bool CheckTouchLeft()
 {
 #ifdef NO_TOUCH
   return 0;
-#elif NATIVE_TOUCH
-  //auto val = touchRead(TOUCH_LEFT);
-  //Serial.print(touchRead(TOUCH_LEFT));
-  //Serial.print(", ");
-  return touchRead(TOUCH_LEFT) <= touch_Thresh;
 #else
-  return touch_Left.measure() >= touch_Thresh;
+  Serial.println(ReadTouchLeft());
+  return ReadTouchLeft() >= touch_ThreshLeft;
+#endif
+}
+
+int ReadTouchRight()
+{
+#ifdef NO_TOUCH
+  return 0;
+#else
+  return touch_Right.measure();
 #endif
 }
 
@@ -146,11 +161,8 @@ bool CheckTouchRight()
 {
 #ifdef NO_TOUCH
   return 0;
-#elif NATIVE_TOUCH
-  Serial.println(touchRead(TOUCH_RIGHT));
-  return touchRead(TOUCH_RIGHT) <= touch_Thresh;
 #else
-  return touch_Right.measure() >= touch_Thresh;
+  return ReadTouchRight() >= touch_ThreshRight;
 #endif
 }
 
