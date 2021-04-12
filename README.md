@@ -28,7 +28,7 @@ The goal is not to replace all voice commands or hand signals, but rather supple
 
 ## Design
 
-From the very outset, we knew that Climbing Companion would have to prioritize form factor and energy use over features.  We chose small, low power components to meet the functional requirements and nothing more.  That allows us pack our device into a tiny case - its so small that it can fit it a helmet vent!  Small parts also means low weight; the compute capsule weighs 24g, that's less than a locking carabiner!  You won't even notice that it's there unless your partner is signaling to you.  
+From the very outset, we knew that Climbing Companion would have to prioritize form factor and energy use over features.  We chose small, low power components to meet the functional requirements and nothing more.  That allows us pack our device into a tiny case - its so small that it can fit it a helmet vent!  Small parts also means low weight; the compute capsule _weighs 24g_, that's less than a locking carabiner!  You won't even notice that it's there unless your partner is signaling to you.  And our long battery life means that your partner can signal all day long, no matter how early you hit the crag.
 
 We designed and printed an enclosure for a hemlet we have on-hand, but similar cases could be made a varity of helmets, allowing Climbing Companion to seamlessly integrate with your existing gear.
 
