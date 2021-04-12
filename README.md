@@ -41,6 +41,8 @@ TODO: Update render
 
 ### Electronics
 
+TODO: Add wire diagram
+
 The electronics are not terribly difficult to assemble. Simply follow the standard nRF24+ wiring diagram to connect the RF module to the QT Py controller.  The connecting wires should be short so the devices can be compacted together in the case.  After connected the RF, attach leads to the QT Py for the vibrators and touch sensors.  These will need to be longer so they can extend outside of the case.  Finish off by adding a battery connector and power switch.
 
 ![Components](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/NakedComponents.JPG?raw=true)
