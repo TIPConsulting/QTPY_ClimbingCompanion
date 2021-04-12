@@ -1,8 +1,8 @@
 # QTPY Climbing Companion
 
-Signaling device for climbers to communicate when voice commands or hand signs are not feasible.  This is a discreet helmet augmentation that adds simple radio signaling to your existing helmet.  Climbing Companion uses small touch sensors and vibrators to send left hand or right hand signals.  These can be combined to communicate arbitrary commands to your partner.  The nRF24+ radio module can reach up 100m, so you'll never have to worry about signalling again on long routes.
+Signaling device for climbers to communicate when voice commands or hand signs are not feasible.  This is a discreet helmet augmentation that adds simple radio signaling to your existing helmet.  Climbing Companion uses small touch sensors and vibrators to send left hand or right hand signals.  These can be combined to communicate arbitrary commands to your partner.  The nRF24+ radio module can reach up 100m, so you'll never have to worry about signaling again on long routes.
 
-![Component Layout](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Capsule%20Layout.png?raw=true)
+![Component Explosion](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Redux%20Explosion.gif?raw=true)
 
 ## Inspiration
 
@@ -12,7 +12,7 @@ Climbing Companion provides a stable platform for partners to signal each other 
 
 The goal is not to replace all voice commands or hand signals, but rather supplement them during safety critical operations like setting anchors or cleaning routes.  The following image shows a scenario in which Climbing Companion would be ideal - the belayer is not visible and a fast river drowns out any voice commands.  Our radio module would allow the climber to signal when he sets his anchor or needs a rest.
 
-<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Climber.jpg?raw=true" alt="Test Rig" width="400px">
+<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Climber0.jpg?raw=true" alt="Climber" width="400px">
 
 
 ## Hardware
@@ -24,5 +24,14 @@ The goal is not to replace all voice commands or hand signals, but rather supple
 - 4x [Vibrator Disc](https://www.amazon.com/tatoko-12000RPM-Wired-Phone-Vibration/dp/B07L5V5GYG/)
 - 4x Touch Sensor / Conductive Strips
 
-![Component Explosion](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Redux%20Explosion.gif?raw=true)
+![Component Layout](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Capsule%20Layout.png?raw=true)
+
+## Design
+
+From the very outset, we knew that Climbing Companion would have to prioritize form factor and energy use over features.  We chose small, low power components to meet the functional requirements and nothing more.  That allows us pack our device into a tiny case - its so small that it can fit it a helmet vent!  Small parts also means low weight; the compute capsule _weighs 24g_, that's less than a locking carabiner!  You won't even notice that it's there unless your partner is signaling to you.  And our long battery life means that your partner can signal all day long, no matter how early you hit the crag.
+
+We designed and printed an enclosure for a hemlet we have on-hand, but similar cases could be made a varity of helmets, allowing Climbing Companion to seamlessly integrate with your existing gear.
+
+<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_Side.JPG?raw=true" alt="Helmet Side" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_Back.JPG?raw=true" alt="Helmet Back" width="400px">
+
 
