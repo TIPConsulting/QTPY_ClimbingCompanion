@@ -53,7 +53,12 @@ For the best integration possible, each compute capsule is designed to fit a spe
 
 Once the components are soldered together and the case fit is perfected, the electronics will need to be inserted into the case.  We designed holes into the back of our capsule to allow vibrator and sensor wires to pass through unobtrusively.  We passed these wires through the shell first and used them to gently pull everything into place.  Only after this step should the final components be added.  If you were to add the vibrators and sensors too early, you would not be able to properly assemble the device.
 
+1. 
+
 <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Top.JPG?raw=true" alt="Compute Capsule Top" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Front.JPG?raw=true" alt="Compute Capsule Front" width="400px">
+
+2.
+TODO: final assembly
 
 ### Helmet Integration
 
