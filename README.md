@@ -32,6 +32,7 @@ From the very outset, we knew that Climbing Companion would have to prioritize f
 
 We designed and printed an enclosure for a hemlet we have on-hand, but similar cases could be made a varity of helmets, allowing Climbing Companion to seamlessly integrate with your existing gear.
 
+TODO: Update render
 ![Capsule Render](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Capsule%20Render.png)
 
 <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_Side.JPG?raw=true" alt="Helmet Side" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_Back.JPG?raw=true" alt="Helmet Back" width="400px">
