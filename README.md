@@ -36,7 +36,7 @@ We designed and printed an enclosure for a hemlet we have on-hand, but similar c
 
 <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_Side.JPG?raw=true" alt="Helmet Side" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_Back.JPG?raw=true" alt="Helmet Back" width="400px">
 
-##Build Process
+## Build Process
 
 ### Electronics
 
