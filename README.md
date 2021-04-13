@@ -32,6 +32,45 @@ From the very outset, we knew that Climbing Companion would have to prioritize f
 
 We designed and printed an enclosure for a hemlet we have on-hand, but similar cases could be made a varity of helmets, allowing Climbing Companion to seamlessly integrate with your existing gear.
 
+TODO: Update render
+![Capsule Render](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Capsule%20Render.png)
+
 <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_Side.JPG?raw=true" alt="Helmet Side" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_Back.JPG?raw=true" alt="Helmet Back" width="400px">
 
+## Build Process
 
+### Electronics
+
+TODO: Add wire diagram
+
+The electronics are not terribly difficult to assemble. Simply follow the standard nRF24+ wiring diagram to connect the RF module to the QT Py controller.  The connecting wires should be short so the devices can be compacted together in the case.  After connected the RF, attach leads to the QT Py for the vibrators and touch sensors.  These will need to be longer so they can extend outside of the case.  Finish off by adding a battery connector and power switch.
+
+![Components](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/NakedComponents.JPG?raw=true)
+
+### Compute Capsule
+
+For the best integration possible, each compute capsule is designed to fit a specific helmet and vent.  It is critical to get a capsule that perfectly fits the helmet vent and provides enough room for the components.  It took half a dozen prototypes before we were satisfied with the fit and finish of our capsule.
+
+
+### Compute Capsule Assembly
+
+Once the components are soldered together and the case fit is perfected, the electronics will need to be inserted into the case.  We designed holes into the back of our capsule to allow vibrator and sensor wires to pass through unobtrusively.  We passed these wires through the shell first and used them to gently pull everything into place.  Only after this step should the final components be added.  If you were to add the vibrators and sensors too early, you would not be able to properly assemble the device.
+
+1. 
+
+<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Top.JPG?raw=true" alt="Compute Capsule Top" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Front.JPG?raw=true" alt="Compute Capsule Front" width="400px">
+
+2.
+TODO: final assembly
+
+### Helmet Integration
+
+TODO
+
+## Final Testing
+
+TODO
+
+## Conclusions
+
+TODO
