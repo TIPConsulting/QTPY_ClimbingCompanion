@@ -10,14 +10,6 @@
 Adafruit_NeoPixel neoStrip(1, NEOPIX, NEO_GRB + NEO_KHZ800);
 #endif
 
-int touch_ThreshLeft = 99999999;
-int touch_ThreshRight = 99999999;
-Adafruit_FreeTouch touch_Left = Adafruit_FreeTouch(TOUCH_LEFT, OVERSAMPLE_4, RESISTOR_50K, FREQ_MODE_NONE);
-Adafruit_FreeTouch touch_Right = Adafruit_FreeTouch(TOUCH_RIGHT, OVERSAMPLE_4, RESISTOR_50K, FREQ_MODE_NONE);
-
-constexpr byte vibe_Left = VIBE_LEFT;
-constexpr byte vibe_Right = VIBE_RIGHT;
-
 /****************** User Config ***************************/
 /***      Set this radio as radio number 0 or 1         ***/
 bool radioNumber = RADIO_NUM;
@@ -34,8 +26,6 @@ bool isTransmitting = false;
 constexpr int lastReceiptThresh = 200;
 unsigned long lastReceipt = 0;
 
-inline int ReadTouchLeft();
-inline int ReadTouchRight();
 inline bool CheckTouchLeft();
 inline bool CheckTouchRight();
 void SendRF(bool, bool);
@@ -48,14 +38,13 @@ void setup()
   Serial.println(F("RF24/examples/GettingStarted"));
   Serial.println(F("*** PRESS 'T' to begin transmitting to the other node"));
 
-  touch_Left.begin();
-  touch_Right.begin();
-
   pinMode(LED_BUILTIN, OUTPUT);
-  pinMode(vibe_Left, OUTPUT);
-  pinMode(vibe_Right, OUTPUT);
-  digitalWrite(vibe_Left, 0);
-  digitalWrite(vibe_Right, 0);
+  pinMode(TOUCH_LEFT, INPUT);
+  pinMode(TOUCH_RIGHT, INPUT);
+  pinMode(VIBE_LEFT, OUTPUT);
+  pinMode(VIBE_RIGHT, OUTPUT);
+  digitalWrite(VIBE_LEFT, 0);
+  digitalWrite(VIBE_RIGHT, 0);
 #ifdef NEOPIX
 
   neoStrip.begin();
@@ -86,12 +75,6 @@ void setup()
 
   // Start the radio listening for data
   radio.startListening();
-
-  delay(500);
-  ReadTouchLeft();
-  touch_ThreshLeft = (int)(ReadTouchLeft() * 1.5);
-  ReadTouchRight();
-  touch_ThreshRight = (int)(ReadTouchRight() * 1.5);
 }
 
 void loop()
@@ -129,41 +112,20 @@ void loop()
   }
 }
 
-int ReadTouchLeft()
-{
-#ifdef NO_TOUCH
-  return 0;
-#else
-  return touch_Left.measure();
-#endif
-}
-
 bool CheckTouchLeft()
 {
-#ifdef NO_TOUCH
-  return 0;
-#else
-  Serial.println(ReadTouchLeft());
-  return ReadTouchLeft() >= touch_ThreshLeft;
-#endif
-}
-
-int ReadTouchRight()
-{
-#ifdef NO_TOUCH
-  return 0;
-#else
-  return touch_Right.measure();
-#endif
+  bool x = (digitalRead(TOUCH_LEFT) == 1);
+  if (x)
+    Serial.println("left");
+  return x;
 }
 
 bool CheckTouchRight()
 {
-#ifdef NO_TOUCH
-  return 0;
-#else
-  return ReadTouchRight() >= touch_ThreshRight;
-#endif
+  bool x = (digitalRead(TOUCH_RIGHT) == 1);
+  if (x)
+    Serial.println("right");
+  return x;
 }
 
 void SendRF(bool sendLeft, bool sendRight)
@@ -204,16 +166,16 @@ void ListenRF()
     leftMotorOn = ((recvBuffer & 0xF0) == 0xF0);
     rightMotorOn = ((recvBuffer & 0x0F) == 0x0F);
 
-    digitalWrite(vibe_Left, leftMotorOn);
-    digitalWrite(vibe_Right, rightMotorOn);
+    digitalWrite(VIBE_LEFT, leftMotorOn);
+    digitalWrite(VIBE_RIGHT, rightMotorOn);
     SetLightState(leftMotorOn | rightMotorOn);
     lastReceipt = millis();
   }
 
   if ((millis() - lastReceipt) > lastReceiptThresh)
   {
-    digitalWrite(vibe_Left, 0);
-    digitalWrite(vibe_Right, 0);
+    digitalWrite(VIBE_LEFT, 0);
+    digitalWrite(VIBE_RIGHT, 0);
     SetLightState(0);
   }
 }
