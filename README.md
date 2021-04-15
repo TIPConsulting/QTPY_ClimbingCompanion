@@ -2,6 +2,8 @@
 
 Signaling device for climbers to communicate when voice commands or hand signs are not feasible.  This is a discreet helmet augmentation that adds simple radio signaling to your existing helmet.  Climbing Companion uses small touch sensors and vibrators to send left hand or right hand signals.  These can be combined to communicate arbitrary commands to your partner.  The nRF24+ radio module can reach up 100m, so you'll never have to worry about signaling again on long routes.
 
+![CommExample](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/CommExample.JPG?raw=true)
+
 ![Component Explosion](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Redux%20Explosion.gif?raw=true)
 
 ## Inspiration
@@ -32,8 +34,8 @@ From the very outset, we knew that Climbing Companion would have to prioritize f
 
 We designed and printed an enclosure for a hemlet we have on-hand, but similar cases could be made a varity of helmets, allowing Climbing Companion to seamlessly integrate with your existing gear.
 
-TODO: Update render
-![Capsule Render](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Capsule%20Render.png)
+![Capsule Render](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Capsule%20Drawing.JPG?raw=true)
+
 
 <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_Side.JPG?raw=true" alt="Helmet Side" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_Back.JPG?raw=true" alt="Helmet Back" width="400px">
 
@@ -41,11 +43,9 @@ TODO: Update render
 
 ### Electronics
 
-TODO: Add wire diagram
-
 The electronics are not terribly difficult to assemble. Simply follow the standard nRF24+ wiring diagram to connect the RF module to the QT Py controller.  The connecting wires should be short so the devices can be compacted together in the case.  After connected the RF, attach leads to the QT Py for the vibrators and touch sensors.  These will need to be longer so they can extend outside of the case.  Finish off by adding a battery connector and power switch.
 
-![Components](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/NakedComponents.JPG?raw=true)
+<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/WireDiagram.jpg?raw=true" alt="Wire Diagram" width="520px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/NakedComponents.JPG?raw=true" alt="Electronics" width="400px">
 
 ### Compute Capsule
 
@@ -61,7 +61,7 @@ Once the components are soldered together and the case fit is perfected, the ele
 <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Top.JPG?raw=true" alt="Compute Capsule Top" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Front.JPG?raw=true" alt="Compute Capsule Front" width="400px">
 
 2.
-TODO: final assembly
+![Electronics Assembly](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/AssembledComponents.jpg?raw=true)
 
 ### Helmet Integration
 
