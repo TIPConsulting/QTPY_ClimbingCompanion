@@ -166,8 +166,8 @@ void ListenRF()
     leftMotorOn = ((recvBuffer & 0xF0) == 0xF0);
     rightMotorOn = ((recvBuffer & 0x0F) == 0x0F);
 
-    digitalWrite(VIBE_LEFT, leftMotorOn);
-    digitalWrite(VIBE_RIGHT, rightMotorOn);
+    analogWrite(VIBE_LEFT, leftMotorOn * 256);
+    analogWrite(VIBE_RIGHT, rightMotorOn * 256);
     SetLightState(leftMotorOn | rightMotorOn);
     lastReceipt = millis();
   }
