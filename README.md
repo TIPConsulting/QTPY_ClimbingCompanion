@@ -64,10 +64,12 @@ Once the components are soldered together and the case fit is perfected, the ele
 <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Top%20(Medium).JPG?raw=true" alt="Compute Capsule Top" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Front%20(Medium).JPG?raw=true" alt="Compute Capsule Front" width="400px">
 
 2.
-![Electronics Assembly](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/AssembledComponents%20(Medium).jpg?raw=true)
+https://user-images.githubusercontent.com/17582002/115144197-941c5780-a008-11eb-9403-8b1d7c4a9896.mp4
 
 3. 
-![Capsule Demo](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Demo.mp4)
+![Electronics Assembly](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/AssembledComponents%20(Medium).jpg?raw=true)
+
+
 
 
 ### Helmet Integration
@@ -79,7 +81,7 @@ Now that the compute capsule is assembled, we can add integrate it into our helm
 
 <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBackOblR%20(Medium).jpg?raw=true" alt="Helmet Side" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBack%20(Medium).JPG?raw=true" alt="Helmet Back" width="400px">
 
-![Orbit Video](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinOrbit.mp4)
+https://user-images.githubusercontent.com/17582002/115144217-b910ca80-a008-11eb-8e25-dc47edc94432.mp4
 
 
 ## Final Testing
@@ -88,16 +90,17 @@ Testing was a remarkable success.  The helmet fits well, the wires tuck out of t
 
 Here are 2 benchtop demo videos.  In them you can see 2 helmets interacting.  It is difficult to see since vibrator is subtle, but if you turn up your volume you can hear the motors trigger when the transmit button is pressed.
 
-### [Demo Video 1](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinDemo.mp4)
 
-### [Demo Video 2](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinDemoClose.mp4)
+https://user-images.githubusercontent.com/17582002/115144228-c7f77d00-a008-11eb-94d9-e0d80b0c8686.mp4
+
+
+https://user-images.githubusercontent.com/17582002/115144231-ccbc3100-a008-11eb-89ab-705404f198c9.mp4
+
+
 
 ## Conclusions
 
 Climbing Companion is the perfect tool for maintaing contact with your climbing partner.  It allows partners to signal each when normal methods fail and its integrated form factor makes it far safer than carrying a radio.
-
-
-
 
 
 
