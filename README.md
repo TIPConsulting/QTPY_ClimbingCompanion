@@ -37,7 +37,7 @@ We designed and printed an enclosure for a hemlet we have on-hand, but similar c
 ![Capsule Render](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Capsule%20Drawing.JPG?raw=true)
 
 
-<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_Side.JPG?raw=true" alt="Helmet Side" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_Back.JPG?raw=true" alt="Helmet Back" width="400px">
+<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBackOblR (Medium).jpg?raw=true" alt="Helmet Side" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBack (Medium).JPG?raw=true" alt="Helmet Back" width="400px">
 
 ## Build Process
 
@@ -45,7 +45,7 @@ We designed and printed an enclosure for a hemlet we have on-hand, but similar c
 
 The electronics are not terribly difficult to assemble. Simply follow the standard nRF24+ wiring diagram to connect the RF module to the QT Py controller.  The connecting wires should be short so the devices can be compacted together in the case.  After connected the RF, attach leads to the QT Py for the vibrators and touch sensors.  These will need to be longer so they can extend outside of the case.  Finish off by adding a battery connector and power switch.
 
-<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/WireDiagram.jpg?raw=true" alt="Wire Diagram" width="520px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/NakedComponents.JPG?raw=true" alt="Electronics" width="400px">
+<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/WireDiagram.jpg?raw=true" alt="Wire Diagram" width="520px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/NakedComponents (Medium).JPG?raw=true" alt="Electronics" width="400px">
 
 ### Compute Capsule
 
@@ -58,10 +58,10 @@ Once the components are soldered together and the case fit is perfected, the ele
 
 1. 
 
-<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Top.JPG?raw=true" alt="Compute Capsule Top" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Front.JPG?raw=true" alt="Compute Capsule Front" width="400px">
+<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Top (Medium).JPG?raw=true" alt="Compute Capsule Top" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Front (Medium).JPG?raw=true" alt="Compute Capsule Front" width="400px">
 
 2.
-![Electronics Assembly](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/AssembledComponents.jpg?raw=true)
+![Electronics Assembly](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/AssembledComponents (Medium).jpg?raw=true)
 
 ### Helmet Integration
 
