@@ -34,6 +34,8 @@ We designed and printed an enclosure for a hemlet we have on-hand, but similar c
 
 ![Capsule Render](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Capsule%20Drawing.JPG?raw=true)
 
+![Helmet Render](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_DesignRender.PNG?raw=true?raw=true)
+
 <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBackOblR (Medium).jpg?raw=true" alt="Helmet Side" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBack (Medium).JPG?raw=true" alt="Helmet Back" width="400px">
 
 ## Build Process
@@ -64,7 +66,12 @@ Once the components are soldered together and the case fit is perfected, the ele
 
 ### Helmet Integration
 
-TODO
+Now that the compute capsule is assembled, we can add integrate it into our helmet.  Align the compute capsule with the back of the helmet in the proper vent slot.  Insert the wires through the vent first and gently pull them from the inside as you guide the capsule into position.  Once fully seated, the compute capsule should wedge into position - the friction alone is enough to keep it in place.  Now route the touch pads and vibration modules to their respective locations and affix them using your preferred adhesive.
+
+
+![Electronics Assembly](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinSide (Medium).jpg?raw=true)
+
+![Electronics Assembly](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBack (Medium).jpg?raw=true)
 
 ## Final Testing
 
