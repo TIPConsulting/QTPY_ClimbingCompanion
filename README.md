@@ -40,6 +40,8 @@ We designed and printed an enclosure for a hemlet we have on-hand, but similar c
 
 ![Component Explosion](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Redux%20Explosion.gif?raw=true)
 
+![Helmet Explosion](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_Explosion.gif?raw=true)
+
 ### Electronics
 
 The electronics are not terribly difficult to assemble. Simply follow the standard nRF24+ wiring diagram to connect the RF module to the QT Py controller.  The connecting wires should be short so the devices can be compacted together in the case.  After connected the RF, attach leads to the QT Py for the vibrators and touch sensors.  These will need to be longer so they can extend outside of the case.  Finish off by adding a battery connector and power switch.
