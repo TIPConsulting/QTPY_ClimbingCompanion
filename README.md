@@ -42,6 +42,8 @@ We designed and printed an enclosure for a hemlet we have on-hand, but similar c
 
 ![Helmet Explosion](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_Explosion.gif?raw=true)
 
+### [3D STL Viewer](https://a360.co/2RFK8qV)
+
 ### Electronics
 
 The electronics are not terribly difficult to assemble. Simply follow the standard nRF24+ wiring diagram to connect the RF module to the QT Py controller.  The connecting wires should be short so the devices can be compacted together in the case.  After connected the RF, attach leads to the QT Py for the vibrators and touch sensors.  These will need to be longer so they can extend outside of the case.  Finish off by adding a battery connector and power switch.
@@ -73,10 +75,21 @@ Now that the compute capsule is assembled, we can add integrate it into our helm
 
 <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBackOblR%20(Medium).jpg?raw=true" alt="Helmet Side" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBack%20(Medium).JPG?raw=true" alt="Helmet Back" width="400px">
 
+### [Orbit Video](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinOrbit.MOV)
+
+
 ## Final Testing
 
-TODO
+Testing was a remarkable success.  The helmet fits well, the wires tuck out of the way easily and you don't even notice that they are there.  And of course, it operates admirably as well.  When triggered, the vibrators actuate and the wearer can easily identify the side and duration.  The vibrators we used work very well; they're strong enough to feel, but not so strong to cause a headache.  We tested the radio up to roughly 100m and had no loss of quality at that range.  We left 2 helmets running and found that their batteries lasted almost 10 hours, perfect for a day trip to the crag.
+
+Here are 2 benchtop demo videos.  In them you can see 2 helmets interacting.  It is difficult to see since vibrator is subtle, but if you turn up your volume you can hear the motors trigger when the transmit button is pressed.
+
+### [Demo Video 1](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinDemo.MOV)
+
+### [Demo Video 2](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinDemoClose.MOV)
 
 ## Conclusions
 
-TODO
+Climbing Companion is the perfect tool for maintaing contact with your climbing partner.  It allows partners to signal each when normal methods fail and its integrated form factor makes it far safer than carrying a radio.
+
+
