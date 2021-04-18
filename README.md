@@ -36,8 +36,6 @@ We designed and printed an enclosure for a hemlet we have on-hand, but similar c
 
 ![Helmet Render](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_DesignRender.PNG?raw=true?raw=true)
 
-<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBackOblR (Medium).jpg?raw=true" alt="Helmet Side" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBack (Medium).JPG?raw=true" alt="Helmet Back" width="400px">
-
 ## Build Process
 
 ![Component Explosion](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Redux%20Explosion.gif?raw=true)
@@ -71,7 +69,7 @@ Now that the compute capsule is assembled, we can add integrate it into our helm
 
 ![Electronics Assembly](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinSide (Medium).jpg?raw=true)
 
-![Electronics Assembly](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBack (Medium).jpg?raw=true)
+<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBackOblR (Medium).jpg?raw=true" alt="Helmet Side" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBack (Medium).JPG?raw=true" alt="Helmet Back" width="400px">
 
 ## Final Testing
 
