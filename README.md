@@ -4,8 +4,6 @@ Signaling device for climbers to communicate when voice commands or hand signs a
 
 ![CommExample](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/CommExample.JPG?raw=true)
 
-![Component Explosion](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Redux%20Explosion.gif?raw=true)
-
 ## Inspiration
 
 Climbing Companion is inspired by own experiences climbing across Colorado.  Its common to find yourself climbing near loud rivers or busy roads where its difficult for belayers and climbers to hear each other.  Furthermore, many routes are shaped such that partners can't see each other after the first 40ft of climbing.  When these obstacles intersect, belayers are forced to make critical safety decisions based on intuition.  Many climbers have died due to such communication failures.
@@ -36,16 +34,17 @@ We designed and printed an enclosure for a hemlet we have on-hand, but similar c
 
 ![Capsule Render](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Capsule%20Drawing.JPG?raw=true)
 
-
-<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBackOblR (Medium).jpg?raw=true" alt="Helmet Side" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBack (Medium).JPG?raw=true" alt="Helmet Back" width="400px">
+![Helmet Render](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_DesignRender.PNG?raw=true?raw=true)
 
 ## Build Process
+
+![Component Explosion](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Redux%20Explosion.gif?raw=true)
 
 ### Electronics
 
 The electronics are not terribly difficult to assemble. Simply follow the standard nRF24+ wiring diagram to connect the RF module to the QT Py controller.  The connecting wires should be short so the devices can be compacted together in the case.  After connected the RF, attach leads to the QT Py for the vibrators and touch sensors.  These will need to be longer so they can extend outside of the case.  Finish off by adding a battery connector and power switch.
 
-<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/WireDiagram.jpg?raw=true" alt="Wire Diagram" width="520px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/NakedComponents (Medium).JPG?raw=true" alt="Electronics" width="400px">
+<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/WireDiagram.jpg?raw=true" alt="Wire Diagram" width="520px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/NakedComponents%20(Medium).JPG?raw=true" alt="Electronics" width="400px">
 
 ### Compute Capsule
 
@@ -58,14 +57,19 @@ Once the components are soldered together and the case fit is perfected, the ele
 
 1. 
 
-<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Top (Medium).JPG?raw=true" alt="Compute Capsule Top" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Front (Medium).JPG?raw=true" alt="Compute Capsule Front" width="400px">
+<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Top%20(Medium).JPG?raw=true" alt="Compute Capsule Top" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Front%20(Medium).JPG?raw=true" alt="Compute Capsule Front" width="400px">
 
 2.
-![Electronics Assembly](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/AssembledComponents (Medium).jpg?raw=true)
+![Electronics Assembly](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/AssembledComponents%20(Medium).jpg?raw=true)
 
 ### Helmet Integration
 
-TODO
+Now that the compute capsule is assembled, we can add integrate it into our helmet.  Align the compute capsule with the back of the helmet in the proper vent slot.  Insert the wires through the vent first and gently pull them from the inside as you guide the capsule into position.  Once fully seated, the compute capsule should wedge into position - the friction alone is enough to keep it in place.  Now route the touch pads and vibration modules to their respective locations and affix them using your preferred adhesive.
+
+
+![Electronics Assembly](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinSide%20(Medium).jpg?raw=true)
+
+<img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBackOblR%20(Medium).jpg?raw=true" alt="Helmet Side" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBack%20(Medium).JPG?raw=true" alt="Helmet Back" width="400px">
 
 ## Final Testing
 
