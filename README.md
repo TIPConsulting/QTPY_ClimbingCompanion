@@ -4,8 +4,6 @@ Signaling device for climbers to communicate when voice commands or hand signs a
 
 ![CommExample](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/CommExample.JPG?raw=true)
 
-![Component Explosion](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Redux%20Explosion.gif?raw=true)
-
 ## Inspiration
 
 Climbing Companion is inspired by own experiences climbing across Colorado.  Its common to find yourself climbing near loud rivers or busy roads where its difficult for belayers and climbers to hear each other.  Furthermore, many routes are shaped such that partners can't see each other after the first 40ft of climbing.  When these obstacles intersect, belayers are forced to make critical safety decisions based on intuition.  Many climbers have died due to such communication failures.
@@ -36,10 +34,11 @@ We designed and printed an enclosure for a hemlet we have on-hand, but similar c
 
 ![Capsule Render](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Capsule%20Drawing.JPG?raw=true)
 
-
 <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBackOblR (Medium).jpg?raw=true" alt="Helmet Side" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBack (Medium).JPG?raw=true" alt="Helmet Back" width="400px">
 
 ## Build Process
+
+![Component Explosion](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/ComputeCapsule/Redux%20Explosion.gif?raw=true)
 
 ### Electronics
 
