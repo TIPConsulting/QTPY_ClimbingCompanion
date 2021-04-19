@@ -106,4 +106,4 @@ https://user-images.githubusercontent.com/17582002/115144231-ccbc3100-a008-11eb-
 Climbing Companion is the perfect tool for maintaing contact with your climbing partner.  It allows partners to signal each when normal methods fail and its integrated form factor makes it far safer than carrying a radio.
 
 
-## [Final Video](https://www.youtube.com/watch?v=6wvUFTiohLA)
+# [Final Video](https://www.youtube.com/watch?v=6wvUFTiohLA)
