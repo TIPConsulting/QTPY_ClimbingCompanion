@@ -59,14 +59,15 @@ For the best integration possible, each compute capsule is designed to fit a spe
 
 Once the components are soldered together and the case fit is perfected, the electronics will need to be inserted into the case.  We designed holes into the back of our capsule to allow vibrator and sensor wires to pass through unobtrusively.  We passed these wires through the shell first and used them to gently pull everything into place.  Only after this step should the final components be added.  If you were to add the vibrators and sensors too early, you would not be able to properly assemble the device.
 
-1. 
+1. Assemble the electronics into the compute capsule.  Do not seal the capsule yet
 
 <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Top%20(Medium).JPG?raw=true" alt="Compute Capsule Top" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Front%20(Medium).JPG?raw=true" alt="Compute Capsule Front" width="400px">
 
-2.
+2. Somewhere around this point, you should test the device to make sure it works as expected
+
 https://user-images.githubusercontent.com/17582002/115144197-941c5780-a008-11eb-9403-8b1d7c4a9896.mp4
 
-3. 
+3. If everything works so far, add the final components to the externally breached wires.  You should solder on the vibrators and touch controls, but still do not seal the capsule yet.  We may need access later for debugging.
 ![Electronics Assembly](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/AssembledComponents%20(Medium).jpg?raw=true)
 
 
