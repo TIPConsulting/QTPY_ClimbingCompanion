@@ -77,6 +77,8 @@ https://user-images.githubusercontent.com/17582002/115144197-941c5780-a008-11eb-
 
 Now that the compute capsule is assembled, we can add integrate it into our helmet.  Align the compute capsule with the back of the helmet in the proper vent slot.  Insert the wires through the vent first and gently pull them from the inside as you guide the capsule into position.  Once fully seated, the compute capsule should wedge into position - the friction alone is enough to keep it in place.  Now route the touch pads and vibration modules to their respective locations and affix them using your preferred adhesive.
 
+Make sure that all of the components are secure and the wires are well routed.  Now add the battery to the compute capsule.  Give it another test to make sure everything still works.  Especially check that the touch pads and vibrators work properly since those haven't been tested yet.  If everything looks good, then seal the capsule!
+
 
 ![Electronics Assembly](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinSide%20(Medium).jpg?raw=true)
 
