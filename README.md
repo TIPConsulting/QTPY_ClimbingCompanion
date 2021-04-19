@@ -59,23 +59,32 @@ For the best integration possible, each compute capsule is designed to fit a spe
 
 Once the components are soldered together and the case fit is perfected, the electronics will need to be inserted into the case.  We designed holes into the back of our capsule to allow vibrator and sensor wires to pass through unobtrusively.  We passed these wires through the shell first and used them to gently pull everything into place.  Only after this step should the final components be added.  If you were to add the vibrators and sensors too early, you would not be able to properly assemble the device.
 
-1. 
+1. Assemble the electronics into the compute capsule.  Do not seal the capsule yet
 
 <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Top%20(Medium).JPG?raw=true" alt="Compute Capsule Top" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Capsule_Front%20(Medium).JPG?raw=true" alt="Compute Capsule Front" width="400px">
 
-2.
+2. Somewhere around this point, you should test the device to make sure it works as expected
+
+https://user-images.githubusercontent.com/17582002/115144197-941c5780-a008-11eb-9403-8b1d7c4a9896.mp4
+
+3. If everything works so far, add the final components to the externally breached wires.  You should solder on the vibrators and touch controls, but still do not seal the capsule yet.  We may need access later for debugging.
 ![Electronics Assembly](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/AssembledComponents%20(Medium).jpg?raw=true)
+
+
+
 
 ### Helmet Integration
 
 Now that the compute capsule is assembled, we can add integrate it into our helmet.  Align the compute capsule with the back of the helmet in the proper vent slot.  Insert the wires through the vent first and gently pull them from the inside as you guide the capsule into position.  Once fully seated, the compute capsule should wedge into position - the friction alone is enough to keep it in place.  Now route the touch pads and vibration modules to their respective locations and affix them using your preferred adhesive.
+
+Make sure that all of the components are secure and the wires are well routed.  Now add the battery to the compute capsule.  Give it another test to make sure everything still works.  Especially check that the touch pads and vibrators work properly since those haven't been tested yet.  If everything looks good, then seal the capsule!
 
 
 ![Electronics Assembly](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinSide%20(Medium).jpg?raw=true)
 
 <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBackOblR%20(Medium).jpg?raw=true" alt="Helmet Side" width="400px"> <img src="https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinBack%20(Medium).JPG?raw=true" alt="Helmet Back" width="400px">
 
-### [Orbit Video](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinOrbit.MOV)
+https://user-images.githubusercontent.com/17582002/115144217-b910ca80-a008-11eb-8e25-dc47edc94432.mp4
 
 
 ## Final Testing
@@ -84,12 +93,17 @@ Testing was a remarkable success.  The helmet fits well, the wires tuck out of t
 
 Here are 2 benchtop demo videos.  In them you can see 2 helmets interacting.  It is difficult to see since vibrator is subtle, but if you turn up your volume you can hear the motors trigger when the transmit button is pressed.
 
-### [Demo Video 1](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinDemo.MOV)
 
-### [Demo Video 2](https://github.com/TIPConsulting/QTPY_ClimbingCompanion/blob/master/Documents/Helmet_FinDemoClose.MOV)
+https://user-images.githubusercontent.com/17582002/115144228-c7f77d00-a008-11eb-94d9-e0d80b0c8686.mp4
+
+
+https://user-images.githubusercontent.com/17582002/115144231-ccbc3100-a008-11eb-89ab-705404f198c9.mp4
+
+
 
 ## Conclusions
 
 Climbing Companion is the perfect tool for maintaing contact with your climbing partner.  It allows partners to signal each when normal methods fail and its integrated form factor makes it far safer than carrying a radio.
 
 
+# [Final Video](https://www.youtube.com/watch?v=6wvUFTiohLA)
